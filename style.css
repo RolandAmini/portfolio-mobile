@@ -6,12 +6,11 @@
 }
 
 .section-one {
-  background-image: url("Header-llustration-desktop@2x.png");
+  background-image: url("header-illsutration-mobile.svg");
   background-repeat: no-repeat;
-  background-size: 210vh 100vh;
+  background-size: cover;
+  /* background-size: 210vh 100vh; */
   height: 100vh;
-  background-position: center;
-  overflow: hidden;
 }
 
 .hero-comtain {
@@ -47,7 +46,7 @@ nav ul li a:hover {
   transition: 0.3s;
 }
 
-.header-containt {
+.nav-list {
   text-align: center;
   margin-top: 20px;
 }
@@ -61,6 +60,7 @@ nav ul li a:hover {
   font-size: 1.1rem;
   line-height: 1.6rem;
   font-weight: 500;
+  margin-top: 70px;
 }
 
 h1 {
@@ -81,22 +81,51 @@ span {
   margin: 0 10px;
 }
 
-/* Media queries for mobile */
-@media only screen and (max-width: 600px) {
-  nav ul li {
-    display: block;
-    padding: 10px 0;
-  }
+/* Hide the navigation list by default */
+.nav-list {
+  display: none;
+}
 
+/* Show the navigation list when the screen width is 600px or above */
+@media only screen and (min-width: 600px) {
+  .nav-list {
+    display: block;
+  }
+  
+  .nav-icon {
+    display: none;
+  }
   .header-containt {
     margin-top: 10px;
   }
 
   .hero-comtain {
-    padding-top: 120px;
+    padding-top: 90px;
   }
+}
 
-  .icons {
-    padding-top: 20px;
+/* Style the navigation icon */
+.nav-icon {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-icon i {
+  color: black;
+  font-size: 20px;
+}
+
+/* Adjust the positioning of the icon and list for mobile */
+@media only screen and (max-width: 600px) {
+  .nav-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+  }
+  
+  .nav-list {
+    margin-top: 70px;
   }
 }
