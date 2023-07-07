@@ -1,35 +1,4 @@
 <a name="readme-top"></a>
-
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
-
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -51,14 +20,13 @@ For more information on the importance of a professional README for your reposit
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio-mobile] <a name="about-project"></a>
+# 📖 My Portfolio <a name="about-project"></a>
 
-is a mobile responsive project
+This is a mobile responsive project. I used HTML, CSS and JavaScript to build this project.
 
 **[portfolio-mobile]** 
 
@@ -69,21 +37,8 @@ is a mobile responsive project
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
   </ul>
 </details>
 
@@ -92,9 +47,9 @@ is a mobile responsive project
 ### Key Features <a name="key-features"></a>
 
 
-- **[html]**
-- **[css]**
-- **[mediaqueries]**
+- **Add linters for better development**
+- **Add header section**
+- **Add Nav bar**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,39 +65,32 @@ is a mobile responsive project
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> they could get ideas on how to create a mobile responsive portfolio
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Node JS
+- Any code editor
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:RolandAmini/portfolio-mobile.git
 ```
---->
+
 
 ### Install
 
 Install this project with:
-npm install
+```sh
+ npm install
+```
 
 ### Usage
 
@@ -153,17 +101,16 @@ but in order to run the project use : npm install(it will creat a product rady f
 ### Run tests
 
 To run tests, run the following command:
-npm install --save-dev hint@7.x
+```sh
 npx hint .
 npx stylelint "**/*.{css,scss}"
-
+```
   
 
 ### Deployment
 
 You can deploy this project using:
-
-html and css
+- Localhost
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,9 +118,7 @@ html and css
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Roland Amini**
 
 - GitHub: [@RolandAmini](https://github.com/RolandAmini)
 - Twitter: [@IsaacAmini](https://twitter.com/Isaac_roland02)
@@ -185,11 +130,10 @@ html and css
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[html]**
-- [ ] **[css]**
-- [ ] **[js]**
+- [ ] **Add animation**
+- [ ] **Add dynamic content**
+- [ ] **Test with real devices**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,7 +151,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> feel free it try out and share your ideas.
+Feel free it try out and share your ideas.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,32 +159,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[How long did it take to complete the project]**
-
-  - [2 days]
-
-- **[Did it take many tries to perfect it]**
-
-  - [yes, it did]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
