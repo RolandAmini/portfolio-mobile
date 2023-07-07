@@ -9,7 +9,6 @@
   background-image: url("header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: 210vh 100vh; */
   height: 100vh;
 }
 
@@ -49,6 +48,7 @@ nav ul li a:hover {
 .nav-list {
   text-align: center;
   margin-top: 20px;
+  display: none;
 }
 
 .background-container {
@@ -81,20 +81,15 @@ span {
   margin: 0 10px;
 }
 
-/* Hide the navigation list by default */
-.nav-list {
-  display: none;
-}
-
-/* Show the navigation list when the screen width is 600px or above */
 @media only screen and (min-width: 600px) {
   .nav-list {
     display: block;
   }
-  
+
   .nav-icon {
     display: none;
   }
+
   .header-containt {
     margin-top: 10px;
   }
@@ -124,7 +119,7 @@ span {
     right: 10px;
     z-index: 999;
   }
-  
+
   .nav-list {
     margin-top: 70px;
   }
