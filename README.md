@@ -28,14 +28,7 @@ After you're finished please remove all the comments and instructions!
 For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -67,7 +60,7 @@ For more information on the importance of a professional README for your reposit
 
 > Describe your project in 1 or 2 sentences. My project is about a portfolio project. it's also a mobile responsive project.
 
-**[your_project__name]** is a...portfolio-mobile
+**[portfolio-mobile]** is a mobile responsive project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -102,9 +95,9 @@ For more information on the importance of a professional README for your reposit
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[html]**
+- **[css]**
+- **[mediaqueries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
