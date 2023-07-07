@@ -142,51 +142,28 @@ Example commands:
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+npm install
 
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+in order to use this project you creat branch to add more feature
+but in order to run the project use : npm install(it will creat a product rady file)
 
 ### Run tests
 
 To run tests, run the following command:
+npm install --save-dev hint@7.x
+npx hint .
+npx stylelint "**/*.{css,scss}"
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+  
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+html and css
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
