@@ -58,9 +58,9 @@ For more information on the importance of a professional README for your reposit
 
 # 📖 [portfolio-mobile] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences. My project is about a portfolio project. it's also a mobile responsive project.
+is a mobile responsive project
 
-**[portfolio-mobile]** is a mobile responsive project
+**[portfolio-mobile]** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
