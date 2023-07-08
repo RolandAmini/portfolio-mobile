@@ -12,14 +12,6 @@
   height: 100vh;
 }
 
-.hero-comtain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 170px;
-}
-
 nav {
   display: flex;
   justify-content: center;
@@ -41,7 +33,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: aquamarine;
+  color: #36b37e;
   transition: 0.3s;
 }
 
@@ -49,6 +41,14 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 20px;
   display: none;
+}
+
+.hero-comtain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 170px 50px 0px 50px;
 }
 
 .background-container {
@@ -64,21 +64,50 @@ nav ul li a:hover {
 }
 
 h1 {
-  line-height: 2rem;
+  font-size: 40px;
+  color: #172b42;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 52px;
+  /* padding: 0px 15px; */
 }
 
 span {
-  color: aqua;
+  color: #36b37e;
+}
+
+.hero-paragraph {
+  color: #172b4d;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .icons {
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.icons div {
+.icons a {
   margin: 0 10px;
+  color: #505f79;
+}
+
+.icons a i {
+  width: 14.17px;
+  height: 19.62px;
+}
+
+.hero-srolldown {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid #dfe1e6;
+}
+
+.hero-srolldown a {
+  color: #505f79;
 }
 
 @media only screen and (min-width: 600px) {
@@ -103,6 +132,9 @@ span {
 .nav-icon {
   display: block;
   text-align: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
   padding: 10px;
 }
 
