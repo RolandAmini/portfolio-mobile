@@ -203,6 +203,88 @@ span {
   border-radius: 4px;
 }
 
+.about-section {
+  text-align: center;
+  padding: 10px 40px;
+}
+
+.about-title {
+  margin-top: 64px;
+}
+
+.about-par {
+  margin-top: 24px;
+  line-height: 30px;
+  margin-bottom: 24px;
+  height: 96px;
+}
+
+.btn1 {
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  cursor: pointer;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.all-about {
+  margin-top: 58px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+.about-content {
+  background-color: #ebf0ee;
+  border: 1px solid #ebf0ee;
+}
+
+.about-img {
+  width: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.skill-about {
+  background-color: white;
+}
+
+.about-par2 {
+  text-align: center;
+  margin-top: 58px;
+}
+
+.contact {
+  margin-top: 58px;
+  gap: 20px;
+}
+
+.btn2 {
+  text-align: center;
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  cursor: pointer;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
 @media only screen and (min-width: 600px) {
   .nav-icon {
     display: none;
