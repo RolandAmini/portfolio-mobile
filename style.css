@@ -133,7 +133,8 @@ span {
   position: relative;
   color: #172b4d;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bolder;
   max-width: 10rem;
   margin: 20px auto;
   line-height: 1.2;
@@ -164,6 +165,7 @@ span {
   background-color: #ebf0ee;
   border-radius: 8px;
   padding: 3px;
+  margin-bottom: 40px;
 }
 
 .card-content {
@@ -251,6 +253,11 @@ span {
   border: 1px solid #ebf0ee;
 }
 
+.btn:hover {
+  background-color: transparent;
+  color: #36b37f;
+}
+
 .about-img {
   width: 50px;
   margin: 0 auto;
@@ -262,6 +269,7 @@ span {
 
 .skill-about {
   background-color: white;
+  color: #36b37e;
 }
 
 .about-par2 {
