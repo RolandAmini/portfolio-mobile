@@ -25,6 +25,15 @@ nav ul li a {
   font-weight: bold;
 }
 
+.icons a {
+  margin: 0 10px;
+  color: #505f79;
+}
+
+.hero-srolldown a {
+  color: #505f79;
+}
+
 nav ul li a:hover {
   color: #36b37e;
   transition: 0.3s;
@@ -41,7 +50,7 @@ nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 170px 50px 0px 50px;
+  padding: 170px 50px 0 50px;
   background-image: url("header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,6 +75,7 @@ h1 {
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 52px;
+
   /* padding: 0px 15px; */
 }
 
@@ -86,9 +96,9 @@ span {
   padding-bottom: 30px;
 }
 
-.icons a {
-  margin: 0 10px;
-  color: #505f79;
+.nav-icon i {
+  color: black;
+  font-size: 20px;
 }
 
 .icons a i {
@@ -101,10 +111,6 @@ span {
   border-radius: 25px;
   padding: 10px;
   border: 1px solid #dfe1e6;
-}
-
-.hero-srolldown a {
-  color: #505f79;
 }
 
 @media only screen and (min-width: 600px) {
@@ -133,11 +139,6 @@ span {
   background-color: transparent;
   cursor: pointer;
   padding: 10px;
-}
-
-.nav-icon i {
-  color: black;
-  font-size: 20px;
 }
 
 /* Adjust the positioning of the icon and list for mobile */
