@@ -38,6 +38,15 @@ nav ul li a {
   color: #505f79;
 }
 
+.fin-p a {
+  color: #42526e !important;
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
 nav ul li a:hover {
   color: #36b37e;
   transition: 0.3s;
@@ -278,11 +287,12 @@ span {
   justify-content: space-between;
 }
 
-.contact-full{
+.contact-full {
   flex-direction: column;
   padding: 24px;
 }
-.input-none{
+
+.input-none {
   display: none;
 }
 
@@ -307,11 +317,9 @@ span {
   padding: 5px;
   height: 114px;
   flex-shrink: 0;
-  
   border: 1px solid var(--theme-2-primary-3, #60c095);
   background: var(--theme-1-neutrals-11, #fff);
 }
-
 
 .btn2 {
   background-color: #36b37f;
@@ -323,25 +331,16 @@ span {
   justify-content: center;
   display: flex;
 }
+
 .btn2:hover {
   background-color: black;
   color: #fff;
-  transition: 2.s;
 }
 
 .d-btn {
   display: flex;
   justify-content: center;
   margin-top: 24px;
-}
-
-.fin-p a {
-  color: var(--neutrals-n-500, #42526e);
-  margin-top: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
 }
 
 .foot {
@@ -388,12 +387,13 @@ span {
   cursor: pointer;
   padding: 10px;
 }
-.about-par2{
+
+.about-par2 {
   margin-top: 64px;
   display: flex;
-width: 327px;
-height: 363px;
-flex-direction: column;
+  width: 327px;
+  height: 363px;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
@@ -413,14 +413,7 @@ flex-direction: column;
 
 
 /* Style the navigation icon */
-.nav-icon {
-  display: block;
-  text-align: center;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  padding: 10px;
-}
+
 
 /* Adjust the positioning of the icon and list for mobile */
 @media only screen and (max-width: 600px) {
