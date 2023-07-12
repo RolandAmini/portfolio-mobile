@@ -272,42 +272,46 @@ span {
   color: #36b37e;
 }
 
-.about-par2 {
-  text-align: center;
-  margin-top: 58px;
-  margin-bottom: 58px;
+.contact-info {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
 }
 
-.contact form,
-.contact textarea {
-  width: 300px;
-  margin-top: 24px;
-  border-radius: 4px;
+.contact-full{
+  flex-direction: column;
+  padding: 24px;
 }
-input {
-  margin-top: 24px;
-  width: 327px;
-  height: 48px;
+.input-none{
+  display: none;
 }
-.input-name {
-  width: 50px;
-  padding: 5px;
-  height: 48px;
-  flex-shrink: 0;
+
+.input-form {
+  margin-bottom: 20px;
+  padding: 15px;
   border-radius: 4px;
   border: 1px solid var(--theme-2-neutral-9, #d0d9d4);
   background: var(--theme-1-neutrals-11, #fff);
 }
 
+.input-name {
+  width: 95%;
+}
+
+.email-input {
+  width: 95%;
+}
+
 .text-name {
-  width: 50%;
+  width: 100%;
   padding: 5px;
   height: 114px;
   flex-shrink: 0;
-  border-radius: 10%;
+  
   border: 1px solid var(--theme-2-primary-3, #60c095);
   background: var(--theme-1-neutrals-11, #fff);
 }
+
 
 .btn2 {
   background-color: #36b37f;
@@ -318,6 +322,11 @@ input {
   border-radius: 4px;
   justify-content: center;
   display: flex;
+}
+.btn2:hover {
+  background-color: black;
+  color: #fff;
+  transition: 2.s;
 }
 
 .d-btn {
@@ -348,7 +357,6 @@ input {
 }
 
 .footer::after {
-  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -357,7 +365,7 @@ input {
   background-color: black; /* Couleur de la ligne */
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 375px) {
   .nav-icon {
     display: none;
   }
@@ -370,6 +378,39 @@ input {
     padding-top: 90px;
   }
 }
+
+/* Style the navigation icon */
+.nav-icon {
+  display: block;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+}
+.about-par2{
+  margin-top: 64px;
+  display: flex;
+width: 327px;
+height: 363px;
+flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-icon {
+    display: none;
+  }
+
+  .header-containt {
+    margin-top: 10px;
+  }
+
+  .hero-comtain {
+    padding-top: 90px;
+  }
+}
+
+
 
 /* Style the navigation icon */
 .nav-icon {
