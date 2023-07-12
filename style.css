@@ -278,43 +278,39 @@ span {
   margin-bottom: 58px;
 }
 
-  
- .contact form, .contact textarea {
-    width: 300px;
-    margin-top: 24px;
-    border-radius: 4px;
-  }
-  input{
-    margin-top: 24px;
-    width: 327px;
-    height: 48px;
-  }
-  .input-name{
+.contact form,
+.contact textarea {
+  width: 300px;
+  margin-top: 24px;
+  border-radius: 4px;
+}
+input {
+  margin-top: 24px;
+  width: 327px;
+  height: 48px;
+}
+.input-name {
   width: 50px;
   padding: 5px;
-height: 48px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid var(--theme-2-neutral-9, #D0D9D4);
-background: var(--theme-1-neutrals-11, #FFF);
-  }
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--theme-2-neutral-9, #d0d9d4);
+  background: var(--theme-1-neutrals-11, #fff);
+}
 
-.text-name{
-width: 100%;
-padding: 5px;
-height: 114px;
-flex-shrink: 0;
-border-radius: 10%;
-border: 1px solid var(--theme-2-primary-3, #60C095);
-background: var(--theme-1-neutrals-11, #FFF);
-  }
+.text-name {
+  width: 50%;
+  padding: 5px;
+  height: 114px;
+  flex-shrink: 0;
+  border-radius: 10%;
+  border: 1px solid var(--theme-2-primary-3, #60c095);
+  background: var(--theme-1-neutrals-11, #fff);
+}
 
-
-
-  
-  
 .btn2 {
- background-color: white;
+  background-color: #36b37f;
   border: 1px solid #36b37f;
   cursor: pointer;
   color: white;
@@ -322,26 +318,22 @@ background: var(--theme-1-neutrals-11, #FFF);
   border-radius: 4px;
   justify-content: center;
   display: flex;
-  
 }
 
-.d-btn{
+.d-btn {
   display: flex;
   justify-content: center;
   margin-top: 24px;
 }
 
-.fin-p a{
-  color: var(--neutrals-n-500, #42526E);
+.fin-p a {
+  color: var(--neutrals-n-500, #42526e);
   margin-top: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  
-  
 }
-
 
 .foot {
   margin-top: 34px;
@@ -364,8 +356,6 @@ background: var(--theme-1-neutrals-11, #FFF);
   height: 1px;
   background-color: black; /* Couleur de la ligne */
 }
-
-
 
 @media only screen and (min-width: 600px) {
   .nav-icon {
