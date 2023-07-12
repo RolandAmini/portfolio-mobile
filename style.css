@@ -410,12 +410,6 @@ span {
   }
 }
 
-
-
-/* Style the navigation icon */
-
-
-/* Adjust the positioning of the icon and list for mobile */
 @media only screen and (max-width: 600px) {
   .nav-icon {
     position: fixed;
