@@ -40,7 +40,7 @@ nav ul li a {
 
 .fin-p a {
   color: var(--neutrals-n-500, #42526e);
-  margin-top: 64px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,8 +293,6 @@ span {
   flex-direction: column;
   align-items: flex-start;
   gap: 58px;
-  margin-left: 24px;
-  margin-right: 24px;
   background-image: url("bg-foot.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -302,16 +300,12 @@ span {
 
 .contact-para {
   margin-top: -10%;
-  width: 327px;
-  height: 363px;
   color: var(--neutrals-n-800, #172b4d);
   text-align: center;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px; /* 130% */
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .contact-mail {
@@ -358,11 +352,13 @@ span {
   border-radius: 4px;
   background: var(--theme-2-primary-2, #36b37f);
   color: var(--theme-2-neutral-11, #fff);
+  border: 1px solid #36b37f;
+  cursor: pointer;
 }
 
 .btn2:hover {
-  background-color: white;
-  color: black;
+  background-color: transparent;
+  color: #36b37f;
 }
 
 .d-btn {
@@ -372,7 +368,7 @@ span {
 }
 
 .foot {
-  margin-top: 34px;
+  margin-top: 5px;
   margin-bottom: 45.8px;
   display: flex;
   justify-content: center;
