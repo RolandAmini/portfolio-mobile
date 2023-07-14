@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: var(--neutrals-n-600, #344563);
   text-decoration: none;
   font-weight: bold;
 }
@@ -67,8 +67,9 @@ nav ul li a:hover {
   padding: 0 50px 0 50px;
   background-image: url("header-illsutration-mobile.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
+  background-size: 1300px 600px;
+  height: 100vh;
+  background-position: center;
 }
 
 .background-container {
@@ -220,6 +221,7 @@ span {
 }
 
 .about-par {
+  color: var(--neutrals-n-500, #42526e);
   margin-top: 24px;
   line-height: 30px;
   margin-bottom: 24px;
@@ -236,7 +238,12 @@ span {
   margin-top: 24px;
 }
 
+.portfolio-section2 {
+  background-color: red;
+}
+
 .all-about {
+  background-color: greenyellow;
   margin-top: 58px;
   display: flex;
   gap: 20px;
@@ -245,6 +252,7 @@ span {
 }
 
 .about-card {
+  background-color: yellow;
   display: flex;
   flex-direction: column;
   padding: 20px 0;
