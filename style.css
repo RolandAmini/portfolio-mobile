@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -131,7 +132,7 @@ span {
 }
 
 .portfolio-section {
-  max-width: 1250px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -170,6 +171,7 @@ span {
   border: 1px solid #ebf0ee;
   background-color: #ebf0ee;
   border-radius: 8px;
+  max-width: 15rem;
   padding: 3px;
   margin-bottom: 40px;
 }
@@ -225,7 +227,8 @@ span {
   margin-top: 24px;
   line-height: 30px;
   margin-bottom: 24px;
-  height: 96px;
+  max-width: 580px;
+  margin: 0px auto;
 }
 
 .btn1 {
@@ -238,26 +241,23 @@ span {
   margin-top: 24px;
 }
 
-.portfolio-section2 {
+/* .portfolio-section2 {
   background-color: red;
-}
+} */
 
 .all-about {
-  background-color: greenyellow;
   margin-top: 58px;
   display: flex;
-  gap: 20px;
+  gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .about-card {
-  background-color: yellow;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   padding: 20px 0;
-
-  /* justify-content: center; */
   justify-content: space-between;
 }
 
@@ -408,7 +408,7 @@ span {
   .about-par2 {
     margin-top: 64px;
     display: flex;
-    width: 327px;
+    max-width: 250px;
     height: 363px;
     flex-direction: column;
   }
@@ -435,17 +435,17 @@ span {
   }
 
   .contact-1 {
-    max-width: 1000px;
+    max-width: 800px;
+    margin: 0px auto;
   }
 
   .contact-full {
     position: relative;
     display: flex;
-    gap: 24px;
-
-    /* background-image: url("right.png"),url("left.png");
-    background-position:right bottom,left bottom; */
+    background-image: url("contact-back.png");
+    background-size: 800px;
   }
+ 
 
   .background-img1 {
     background-image: url("right.png");
@@ -459,6 +459,12 @@ span {
 
   .contact-para {
     width: 60%;
+    line-height: 42px;
+  }
+
+  .sp9{
+    font-size: 20px;
+    padding: 55px 0;
   }
 
   .d-btn {
