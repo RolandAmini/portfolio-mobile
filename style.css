@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -296,7 +295,6 @@ span {
   background-image: url("bg-foot.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  
 }
 
 .contact-para {
@@ -475,5 +473,14 @@ span {
 
   .fin-p a {
     display: none;
+  }
+
+  .nav-menu a:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .nav-menu a {
+    transition: all 6s ease-in-out;
   }
 }
