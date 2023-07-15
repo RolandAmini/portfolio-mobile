@@ -482,12 +482,5 @@ span {
     display: none;
   }
 
-  .nav-menu a:hover {
-    background-color: red;
-    color: white;
-  }
-
-  .nav-menu a {
-    transition: all 6s ease-in-out;
-  }
+ 
 }
