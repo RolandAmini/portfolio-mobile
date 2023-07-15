@@ -224,11 +224,11 @@ span {
 
 .about-par {
   color: var(--neutrals-n-500, #42526e);
+  margin: 0 auto;
   margin-top: 24px;
   line-height: 30px;
   margin-bottom: 24px;
   max-width: 580px;
-  margin: 0px auto;
 }
 
 .btn1 {
@@ -296,6 +296,7 @@ span {
   background-image: url("bg-foot.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  
 }
 
 .contact-para {
@@ -436,7 +437,8 @@ span {
 
   .contact-1 {
     max-width: 800px;
-    margin: 0px auto;
+    margin: 0 auto;
+    background-color: blue;
   }
 
   .contact-full {
@@ -445,7 +447,6 @@ span {
     background-image: url("contact-back.png");
     background-size: 800px;
   }
- 
 
   .background-img1 {
     background-image: url("right.png");
@@ -455,6 +456,7 @@ span {
     background-image: url("right2-dest.jpg"), url("left2-desk.png");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
+    background-color: red;
   }
 
   .contact-para {
@@ -462,7 +464,7 @@ span {
     line-height: 42px;
   }
 
-  .sp9{
+  .sp9 {
     font-size: 20px;
     padding: 55px 0;
   }
