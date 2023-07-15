@@ -226,8 +226,8 @@ span {
   color: var(--neutrals-n-500, #42526e);
   margin: 0 auto;
   margin-top: 24px;
-  line-height: 30px;
   margin-bottom: 24px;
+  line-height: 30px;
   max-width: 580px;
 }
 
@@ -296,7 +296,6 @@ span {
   background-image: url("bg-foot.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  
 }
 
 .contact-para {
@@ -435,17 +434,22 @@ span {
     letter-spacing: 0.37px;
   }
 
+  .section-title_line {
+    display: none;
+  }
+
   .contact-1 {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: blue;
+    background-image: url("contact-back.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
   }
 
   .contact-full {
+    max-width: 750px;
+    margin: 0 auto;
     position: relative;
     display: flex;
-    background-image: url("contact-back.png");
-    background-size: 800px;
+    background: unset;
   }
 
   .background-img1 {
@@ -456,7 +460,6 @@ span {
     background-image: url("right2-dest.jpg"), url("left2-desk.png");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
-    background-color: red;
   }
 
   .contact-para {
@@ -465,8 +468,11 @@ span {
   }
 
   .sp9 {
-    font-size: 20px;
-    padding: 55px 0;
+    font-size: 18px;
+    padding: 50px 0;
+    margin-right: 24px;
+    width: 463px;
+    height: 256px;
   }
 
   .d-btn {
