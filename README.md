@@ -58,7 +58,7 @@ This is a mobile responsive project. I used HTML, CSS and JavaScript to build th
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--  https://rolandamini.github.io/portfolio-mobile/(#)
+-  https://rolandamini.github.io/portfolio-mobile
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
