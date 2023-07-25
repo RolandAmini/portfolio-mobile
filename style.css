@@ -17,11 +17,9 @@ nav {
   padding-right: 10px;
 }
 
-.nav-menu  {
+/* .nav-menu {
   display: none;
-  background-color: red;
-  padding: 10px 20px;
-}
+} */
 
 nav ul li a {
   color: var(--neutrals-n-600, #344563);
@@ -37,7 +35,6 @@ nav ul li a {
 .hero-srolldown a {
   color: #505f79;
 }
-
 
 .fin-p a {
   color: var(--neutrals-n-500, #42526e);
@@ -394,9 +391,21 @@ span {
   }
 
   .nav-menu {
-    /* display: none; */
     display: flex;
-    
+    flex-direction: column;
+    gap: 3rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 15rem 0;
+    z-index: 50;
+  }
+
+  .show-menu {
+    display: none;
   }
 
   .hero-comtain {
@@ -404,16 +413,14 @@ span {
   }
 
   .nav-icon {
-    display: block;
-    text-align: center;
     border: none;
-    background-color: transparent;
     cursor: pointer;
     padding: 10px;
     margin-right: 40px;
+    z-index: 100;
+    position: fixed;
+    right: 0;
   }
-  
-
 
   .about-par2 {
     margin-top: 64px;
@@ -427,9 +434,19 @@ span {
 @media only screen and (min-width: 768px) {
   .nav-icon {
     display: none;
+
     /* display: block; */
   }
 
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px 0;
+    width: 100%;
+    position: unset;
+  }
 
   .hero-comtain {
     background-image: url("desk-bg-headline.png");
