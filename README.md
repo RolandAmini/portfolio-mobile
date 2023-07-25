@@ -40,6 +40,7 @@ This is a mobile responsive project. I used HTML, CSS and JavaScript to build th
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>javascript</li>
   </ul>
 </details>
 

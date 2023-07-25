@@ -17,9 +17,9 @@ nav {
   padding-right: 10px;
 }
 
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
+.nav-menu  {
+  display: none;
+  background-color: red;
   padding: 10px 20px;
 }
 
@@ -37,6 +37,7 @@ nav ul li a {
 .hero-srolldown a {
   color: #505f79;
 }
+
 
 .fin-p a {
   color: var(--neutrals-n-500, #42526e);
@@ -393,7 +394,9 @@ span {
   }
 
   .nav-menu {
-    display: none;
+    /* display: none; */
+    display: flex;
+    
   }
 
   .hero-comtain {
@@ -407,7 +410,10 @@ span {
     background-color: transparent;
     cursor: pointer;
     padding: 10px;
+    margin-right: 40px;
   }
+  
+
 
   .about-par2 {
     margin-top: 64px;
@@ -421,11 +427,9 @@ span {
 @media only screen and (min-width: 768px) {
   .nav-icon {
     display: none;
+    /* display: block; */
   }
 
-  .nav-menu {
-    display: block;
-  }
 
   .hero-comtain {
     background-image: url("desk-bg-headline.png");
