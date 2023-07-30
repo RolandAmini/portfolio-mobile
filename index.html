@@ -14,14 +14,21 @@
         <header>
           <div class="nav-list">
             <nav>
-              <ul class="nav-menu show-menu">
+              <div class="openMenu"><i class="fa-sharp fa-solid fa-bars"></i></div>
+              <ul class="nav-menu">
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
+                <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
               </ul>
-              <button id="nav-icon" class="nav-icon">
+              
+              <!-- <button id="close-icon" class="close-icon">
                 <i class="fas fa-bars"></i>
               </button>
+              <button class="nav-icon" id="nav-icon" >
+                <i class="fa-solid fa-xmark"></i>
+            </button> -->
+
             </nav>
           </div>
         </header>
@@ -81,7 +88,54 @@
             <li class="skill">Css</li>
             <li class="skill">html</li>
           </ul>
-          <button class="btn btn-skill">See Project</button>
+          <button class="btn btn-skill"  onclick="openPopup()">See Project</button>
+         
+        </div>
+        
+      </div>
+      <div class="pop-up" id="popup">
+        <div class="pop-container">
+          <div class="pop-up2">
+            <button class="button-pop" type="button-pop"  onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+         
+          <img class="pop-img" src="pop-up-img2.png"> 
+          <h2 class="pop-h2">Keeping track of hundreds of<br> components</h2>
+
+            <div class="pop-fin">
+              
+              <button class="POP-BTN">See live <i class="fa-light fa-timer"></i></button>
+              <button class="POP-BTN">See source <i class="fa-brands fa-github"></i></button>
+            </div>
+          <ul class="pop-skills">
+            <li class="skills-up">Ruby </li>
+            <li class="skills-up">Css</li>
+            <li class="skills-up">html</li>
+            <li class="skills-up">Ruby </li>
+            <li class="skills-up">Css</li>
+            <li class="skills-up">html</li>
+          </ul>
+         <p class="par-pop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+         
+    
+         
+  
+  
+        </div>
+       
+      </div>
+
+      <!-- card -->
+      <div class="card">
+        <img src="project-img.png" alt="project">
+        <div class="card-content">
+          <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
+          <ul class="skills">
+            <li class="skill">Ruby </li>
+            <li class="skill">Css</li>
+            <li class="skill">html</li>
+          </ul>
+          <button class="btn btn-skill" onclick="openPopup()" >See Project</button>
         </div>
       </div>
 
@@ -95,7 +149,7 @@
             <li class="skill">Css</li>
             <li class="skill">html</li>
           </ul>
-          <button class="btn btn-skill">See Project</button>
+          <button class="btn btn-skill" onclick="openPopup()">See Project</button>
         </div>
       </div>
 
@@ -109,7 +163,7 @@
             <li class="skill">Css</li>
             <li class="skill">html</li>
           </ul>
-          <button class="btn btn-skill">See Project</button>
+          <button class="btn btn-skill" onclick="openPopup()">See Project</button>
         </div>
       </div>
 
@@ -123,7 +177,7 @@
             <li class="skill">Css</li>
             <li class="skill">html</li>
           </ul>
-          <button class="btn btn-skill">See Project</button>
+          <button class="btn btn-skill" onclick="openPopup()">See Project</button>
         </div>
       </div>
 
@@ -137,21 +191,7 @@
             <li class="skill">Css</li>
             <li class="skill">html</li>
           </ul>
-          <button class="btn btn-skill">See Project</button>
-        </div>
-      </div>
-
-      <!-- card -->
-      <div class="card">
-        <img src="project-img.png" alt="project">
-        <div class="card-content">
-          <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
-          <ul class="skills">
-            <li class="skill">Ruby </li>
-            <li class="skill">Css</li>
-            <li class="skill">html</li>
-          </ul>
-          <button class="btn btn-skill">See Project</button>
+          <button class="btn btn-skill" onclick="openPopup()">See Project</button>
         </div>
       </div>
     </div>
@@ -214,18 +254,24 @@
       <div class="contact-para">
         <h1 class="sp9">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
       </div>
+      
         <div class="contact-mail">
-          <form action="https://formspree.io/f/xjvqvjew" method="POST">
+          <form action="" method="POST" id="myForm">
+            <!-- <form action="https://formspree.io/f/xjvqvjew" method="POST" id="myForm"></form> -->
             <div class="input-none">
-              <input class="input-form input-name" maxlength="30" type="text" name="name" placeholder="Full name" required>
+              <!-- <input class="input-form input-name" maxlength="30" type="text" name="name2" placeholder="Full name" required > -->
+          
             </div>
           
-            <input class="input-form input-name" maxlength="30" type="text" name="name" placeholder="Full name" required>
-            <input class="input-form email-input" type="email" name="email" placeholder="email adress"  required>
+            <input class="input-form input-name" maxlength="30" type="text" name="name" placeholder="Full name" required >
+            <span id="error-message" style="color: red;"></span>
+            <input class="input-form email-input" type="email" name="email" placeholder="email adress"  required id="userEmail">
+            
             <textarea class="text-name" maxlength="500" type="text" name="message"  cols="30" rows="10" placeholder="Hey i'd like to connect to.." required></textarea>
-      
+           
+           
           <div class="d-btn">
-            <button class=" btn2" type="submit">Get in touch</button>
+            <button class=" btn2" type="submit" value="SUMBMIT">Get in touch</button>
           </div>
           </form>
           <div class="fin-p">
