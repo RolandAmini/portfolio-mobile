@@ -11,27 +11,24 @@
 </head>
 <body>
   <section class="sect1">
-        <header>
-          <div class="nav-list">
-            <nav>
-              <div class="openMenu"><i class="fa-sharp fa-solid fa-bars"></i></div>
-              <ul class="nav-menu">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
-              </ul>
-              
-              <!-- <button id="close-icon" class="close-icon">
-                <i class="fas fa-bars"></i>
-              </button>
-              <button class="nav-icon" id="nav-icon" >
-                <i class="fa-solid fa-xmark"></i>
-            </button> -->
+    <header>
+      <div class="nav-list">
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <button class="nav-icon" id="hamburger-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+          <button class="nav-icon" id="close-btn" style="display: none;">
+            <i class="fas fa-times"></i>
+          </button>
 
-            </nav>
-          </div>
-        </header>
+        </nav>
+      </div>
+    </header>
         <section class="hero-comtain">
           <div class="background-container">     
             <div class="contain">
@@ -93,6 +90,7 @@
         </div>
         
       </div>
+      <div id="popblur"></div>
       <div class="pop-up" id="popup">
         <div class="pop-container">
           <div class="pop-up2">
@@ -256,12 +254,9 @@
       </div>
       
         <div class="contact-mail">
-          <form action="" method="POST" id="myForm">
-            <!-- <form action="https://formspree.io/f/xjvqvjew" method="POST" id="myForm"></form> -->
-            <div class="input-none">
-              <!-- <input class="input-form input-name" maxlength="30" type="text" name="name2" placeholder="Full name" required > -->
-          
-            </div>
+          <form action="https://formspree.io/f/xjvqvjew" method="POST" id="myForm">
+            
+              
           
             <input class="input-form input-name" maxlength="30" type="text" name="name" placeholder="Full name" required >
             <span id="error-message" style="color: red;"></span>
