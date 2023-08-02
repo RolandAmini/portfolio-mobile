@@ -2,7 +2,7 @@ const hamburgerBtn = document.getElementById("hamburger-btn");
 const closeBtn = document.getElementById("close-btn");
 const mobileMenu = document.querySelector(".nav-menu");
 
-// hamburgerBtn.addEventListener("click", function (e) {
+hamburgerBtn.addEventListener("click", function (e) {
   e.preventDefault();
   mobileMenu.style.display = "block";
   hamburgerBtn.style.display = "none";
