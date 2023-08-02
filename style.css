@@ -36,6 +36,9 @@ nav ul li a {
   right: 0;
   display: block;
 }
+#close-btn{
+display: none;
+}
 
 .icons a {
   margin: 0 10px;
@@ -456,6 +459,9 @@ span {
 
 .email-input {
   width: 95%;
+}
+.inpu{
+  color: red;
 }
 
 .par-cont {

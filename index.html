@@ -22,7 +22,7 @@
           <button class="nav-icon" id="hamburger-btn">
             <i class="fas fa-bars"></i>
           </button>
-          <button class="nav-icon" id="close-btn" style="display: none;">
+          <button class="nav-icon" id="close-btn" >
             <i class="fas fa-times"></i>
           </button>
 
@@ -94,7 +94,7 @@
       <div class="pop-up" id="popup">
         <div class="pop-container">
           <div class="pop-up2">
-            <button class="button-pop" type="button-pop"  onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
+            <button class="button-pop" type="button"  onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
           </div>
          
           <img class="pop-img" src="pop-up-img2.png"> 
@@ -255,11 +255,9 @@
       
         <div class="contact-mail">
           <form action="https://formspree.io/f/xjvqvjew" method="POST" id="myForm">
-            
-              
-          
+             
             <input class="input-form input-name" maxlength="30" type="text" name="name" placeholder="Full name" required >
-            <!-- <span class="inpu" id="error-message" style="color: red;"></span> -->
+            <span class="inpu" id="error-message"></span> 
             <input class="input-form email-input" type="email" name="email" placeholder="email adress"  required id="userEmail">
             
             <textarea class="text-name" maxlength="500" type="text" name="message"  cols="30" rows="10" placeholder="Hey i'd like to connect to.." required></textarea>
