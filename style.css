@@ -28,6 +28,8 @@ nav ul li a {
 }
 
 .nav-icon {
+  background: transparent;
+  border: none;
   cursor: pointer;
   padding: 10px;
   margin-right: 40px;
@@ -555,6 +557,14 @@ span {
     height: 363px;
     flex-direction: column;
   }
+
+  .pop-img4 {
+    /* margin-left:16px ;
+    margin-right:16px ; */
+    width: 45%;
+    height: 150px;
+    flex-shrink: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -589,6 +599,18 @@ span {
   }
 
   .section-title_line {
+    display: none;
+  }
+
+  .pop-img {
+    /* margin-left:16px ;
+    margin-right:16px ; */
+    width: 90%;
+    height: 300px;
+    flex-shrink: 0;
+  }
+
+  .pop-img4 {
     display: none;
   }
 

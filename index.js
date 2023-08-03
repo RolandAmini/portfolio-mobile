@@ -17,6 +17,25 @@ closeBtn.addEventListener("click", function (e) {
   
 });
 
+const navLinks = document.querySelectorAll("nav ul li a");
+const navMenu = document.querySelector("nav ul");
+
+navLinks.forEach(link => {
+
+    link.addEventListener("click", (e) => {
+        
+      mobileMenu.style.display = "none";
+      hamburgerBtn.style.display = "block";
+      closeBtn.style.display = "none";
+    });
+});
+
+
+// document.querySelector(".menu-icon").addEventListener("click", () => {
+//     navMenu.classList.toggle("active");
+// });
+
+
  const popblur = document.getElementById("popblur");
 function openPopup() {
   popup.classList.add("open-pop-up");
