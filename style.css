@@ -740,6 +740,7 @@ span {
     padding: 4px;
     flex-direction: column;
     border: 1px solid var(--neutrals-n-40, #dfe1e6);
+    
     /* background: var(--neutrals-n-0, #fff);  */
   }
 
