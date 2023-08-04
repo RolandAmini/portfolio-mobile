@@ -224,7 +224,6 @@ span {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 800px;
   display: none;
   transition: transform 0.4s, top 0.4s;
   z-index: 200;
@@ -308,7 +307,6 @@ span {
   border-radius: 4px;
   color: #3a4a42;
 }
-
 .par-pop {
   width: 90%;
   margin-top: -10px;
@@ -576,7 +574,7 @@ span {
   }
 
   .pop-h2 {
-    width: 40%;
+    width: 65%;
     color: var(--neutrals-n-800, #172b4d);
     font-size: 20px;
     font-style: normal;
@@ -595,6 +593,18 @@ span {
 
   .pop-container {
     background-color: red;
+  
+    
+  }
+
+  .pop-up{
+    
+  }
+  
+
+  
+  #dont-show {
+    display: none;
   }
 
   .POP-BTN {
@@ -732,6 +742,10 @@ span {
     margin-bottom: 20px;
   }
 
+  #dont-show {
+    display: inline;
+  }
+
 
   .pop-container {
     align-items: center;
@@ -755,5 +769,9 @@ span {
     border-radius: 4px;
     background: var(--theme-2-primary-2, #36b37f);
     color: var(--theme-2-neutral-11, #fff);
+  }
+
+  .pop-up{
+    width: 800px;
   }
 }
