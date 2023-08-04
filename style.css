@@ -262,6 +262,7 @@ span {
 }
 
 .pop-container {
+  position: relative;
   align-items: center;
   display: flex;
   margin: 0 0 0 0;
@@ -307,6 +308,7 @@ span {
   border-radius: 4px;
   color: #3a4a42;
 }
+
 .par-pop {
   width: 90%;
   margin-top: -10px;
@@ -327,12 +329,14 @@ span {
   align-items: flex-start;
   gap: 4px;
   border-radius: 4px;
-  background: var(--theme-2-primary-2, #36b37f);
-  color: var(--theme-2-neutral-11, #fff);
+
+  /* background: var(--theme-2-primary-2, #36b37f); */
+
+  /* color: var(--theme-2-neutral-11, #fff); */
 }
 
 .pop-fin {
-  margin-left: 350px;
+  margin-right: -550px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -557,7 +561,7 @@ span {
   }
 
   .par-pop {
-    width: 40%;
+    width: 85%;
     color: var(--neutrals-n-600, #344563);
     font-size: 16px;
     font-style: normal;
@@ -574,7 +578,7 @@ span {
   }
 
   .pop-h2 {
-    width: 65%;
+    width: 85%;
     color: var(--neutrals-n-800, #172b4d);
     font-size: 20px;
     font-style: normal;
@@ -582,6 +586,7 @@ span {
   }
 
   .pop-skills {
+    margin-right: 170px;
     display: flex;
     padding: 8px 12px;
     align-items: center;
@@ -592,17 +597,22 @@ span {
   }
 
   .pop-container {
-    background-color: red;
-  
-    
+    background-color: white;
+    padding-bottom: 40px;
   }
 
-  .pop-up{
-    
-  }
-  
+  .pop-fin {
+    margin-right: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
 
-  
+
+    /* margin-top: -50px; */
+  }
+
   #dont-show {
     display: none;
   }
@@ -718,8 +728,8 @@ span {
     /* font-family: Inter; */
     font-size: 16px;
     font-style: normal;
-    margin-bottom: 20px;
     line-height: 20px; /* 187.5% */
+    margin-bottom: 16px;
   }
 
   .pop-h2 {
@@ -730,10 +740,12 @@ span {
     font-size: 20px;
     font-style: normal;
     line-height: 22px;
+    margin-top: 14px;
   }
 
   .pop-skills {
     display: flex;
+    margin-left: 170px;
     padding: 8px 12px;
     align-items: center;
     width: 90%;
@@ -746,7 +758,6 @@ span {
     display: inline;
   }
 
-
   .pop-container {
     align-items: center;
     display: flex;
@@ -756,11 +767,12 @@ span {
     flex-direction: column;
     border: 1px solid var(--neutrals-n-40, #dfe1e6);
 
+
     /* background: var(--neutrals-n-0, #fff); */
   }
 
   .POP-BTN {
-    margin-top: -50px;
+    margin-top: -70px;
     margin-right: 1.1rem;
     display: flex;
     padding: 5px 2px;
@@ -771,7 +783,18 @@ span {
     color: var(--theme-2-neutral-11, #fff);
   }
 
-  .pop-up{
+  .pop-up {
     width: 800px;
+  }
+
+  .pop-fin {
+    margin-right: -550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+
+    /* margin-top: -50px; */
   }
 }
