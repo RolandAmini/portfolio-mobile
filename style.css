@@ -739,9 +739,9 @@ span {
     background-color: #36b37e;
     padding: 4px;
     flex-direction: column;
-    border: 1px solid var(--neutrals-n-40, #dfe1e6);
-    
- /* background: var(--neutrals-n-0, #fff); */
+    border: 1px solid var(--neutrals-n-40,#dfe1e6);
+
+     /* background: var(--neutrals-n-0, #fff); */
   }
 
   .POP-BTN {
