@@ -645,8 +645,6 @@ span {
   }
 
   .pop-img {
-    /* margin-left:16px ;
-    margin-right:16px ; */
     width: 90%;
     height: 300px;
     flex-shrink: 0;
