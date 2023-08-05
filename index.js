@@ -66,3 +66,26 @@ myForm.addEventListener("submit", function (e) {
     errorMessage.textContent = "Please use lowercase letters";
   }
 });
+
+const formData = {
+  email: emailInput.value,
+  name: fullname.value,
+};
+
+localStorage.setItem("formData", JSON.stringify(formData));
+
+document.getElementById("userEmail").value = "";
+document.getElementById("message").value = "";
+document.querySelector("#fullname").value = "";
+});
+
+// Receive data from local-storage
+window.onload = () => {
+const formData = localStorage.getItem("formData");
+if (formData) {
+  // Check if the data exists
+  const formDataObject = JSON.parse(formData);
+  if (fullname) fullname.value = formDataObject.name || "";
+  if (emailInput) emailInput.value = formDataObject.email || "";
+}
+};
