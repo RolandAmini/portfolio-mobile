@@ -608,9 +608,6 @@ span {
     align-items: center;
     position: absolute;
     bottom: 16px;
-
-
-    /* margin-top: -50px; */
   }
 
   #dont-show {
@@ -735,8 +732,6 @@ span {
   .pop-h2 {
     width: 90%;
     color: var(--neutrals-n-800, #172b4d);
-
-    /* font-family: Inter; */
     font-size: 20px;
     font-style: normal;
     line-height: 22px;
@@ -766,9 +761,6 @@ span {
     padding: 4px;
     flex-direction: column;
     border: 1px solid var(--neutrals-n-40, #dfe1e6);
-
-
-    /* background: var(--neutrals-n-0, #fff); */
   }
 
   .POP-BTN {
