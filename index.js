@@ -56,14 +56,14 @@ myForm.addEventListener("submit", function (e) {
 
   const email = emailInput.value.trim();
 
-  // validate email to not be in lowercase
+  // validate email to not be in lowercase 1
   if (email === email.toLowerCase()) {
     errorMessage.textContent = "";
   } else {
     errorMessage.textContent = "Please use lowercase letters";
   }
 
-  // local storage
+  // local storage 2
   const formData = {
     email: emailInput.value,
     name: fullname.value,
