@@ -77,7 +77,7 @@ myForm.addEventListener("submit", function (e) {
 
 });
 
-// Receive data from local-storage
+// Receive data from local-storage1
 window.onload = () => {
 const formData = localStorage.getItem("formData");
 if (formData) {
