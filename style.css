@@ -17,6 +17,10 @@ nav {
   padding-right: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-menu {
   display: none;
 }
@@ -224,8 +228,10 @@ span {
   position: fixed;
   top: 50%;
   left: 50%;
-  display: none;
-  transition: transform 0.4s, top 0.4s;
+
+  /* display: none; */
+  transition: ease-in 0.4s, top 0.4s;
+  transform: translate(-50%, -50%);
   z-index: 200;
 }
 
@@ -266,7 +272,7 @@ span {
   align-items: center;
   display: flex;
   margin: 0 0 0 0;
-  background-color: #36b37e;
+  background-color: white;
   padding: 4px;
   flex-direction: column;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
@@ -757,22 +763,27 @@ span {
     align-items: center;
     display: flex;
     margin: 0 0 0 0;
-    background-color: #36b37e;
+    background-color: white;
     padding: 4px;
     flex-direction: column;
     border: 1px solid var(--neutrals-n-40, #dfe1e6);
   }
 
   .POP-BTN {
-    margin-top: -70px;
-    margin-right: 1.1rem;
+    margin-top: -40px;
+
+    /* margin-right: 1.1rem; */
     display: flex;
-    padding: 5px 2px;
+    padding: 10px 15px;
     align-items: flex-start;
     gap: 4px;
     border-radius: 4px;
     background: var(--theme-2-primary-2, #36b37f);
     color: var(--theme-2-neutral-11, #fff);
+  }
+
+  .POP-BTN:last-child {
+    margin-right: 5.5rem;
   }
 
   .pop-up {
@@ -782,6 +793,8 @@ span {
   .pop-fin {
     margin-right: -550px;
     display: flex;
+
+    /* margin-right: 0.5rem; */
     justify-content: space-between;
     align-items: center;
     position: relative;
