@@ -615,6 +615,7 @@ span {
 
   #dont-show {
     display: none;
+    background-color: green;
   }
 
   .POP-BTN {
@@ -753,11 +754,9 @@ span {
     gap: 10px;
     margin-bottom: 20px;
   }
-
   #dont-show {
     display: inline;
   }
-
   .pop-container {
     align-items: center;
     display: flex;
@@ -766,7 +765,6 @@ span {
     padding: 4px;
     flex-direction: column;
     border: 1px solid var(--neutrals-n-40, #dfe1e6);
-
 
     /* background: var(--neutrals-n-0, #fff); */
   }
