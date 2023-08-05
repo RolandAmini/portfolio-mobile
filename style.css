@@ -224,7 +224,6 @@ span {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 800px;
   display: none;
   transition: transform 0.4s, top 0.4s;
   z-index: 200;
@@ -263,6 +262,7 @@ span {
 }
 
 .pop-container {
+  position: relative;
   align-items: center;
   display: flex;
   margin: 0 0 0 0;
@@ -329,12 +329,14 @@ span {
   align-items: flex-start;
   gap: 4px;
   border-radius: 4px;
-  background: var(--theme-2-primary-2, #36b37f);
-  color: var(--theme-2-neutral-11, #fff);
+
+  /* background: var(--theme-2-primary-2, #36b37f); */
+
+  /* color: var(--theme-2-neutral-11, #fff); */
 }
 
 .pop-fin {
-  margin-left: 350px;
+  margin-right: -550px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -559,7 +561,7 @@ span {
   }
 
   .par-pop {
-    width: 40%;
+    width: 85%;
     color: var(--neutrals-n-600, #344563);
     font-size: 16px;
     font-style: normal;
@@ -576,7 +578,7 @@ span {
   }
 
   .pop-h2 {
-    width: 40%;
+    width: 85%;
     color: var(--neutrals-n-800, #172b4d);
     font-size: 20px;
     font-style: normal;
@@ -584,6 +586,7 @@ span {
   }
 
   .pop-skills {
+    margin-right: 170px;
     display: flex;
     padding: 8px 12px;
     align-items: center;
@@ -594,7 +597,21 @@ span {
   }
 
   .pop-container {
-    background-color: green;
+    background-color: white;
+    padding-bottom: 40px;
+  }
+
+  .pop-fin {
+    margin-right: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+  }
+
+  #dont-show {
+    display: none;
   }
 
   .POP-BTN {
@@ -645,8 +662,6 @@ span {
   }
 
   .pop-img {
-    /* margin-left:16px ;
-    margin-right:16px ; */
     width: 90%;
     height: 300px;
     flex-shrink: 0;
@@ -708,28 +723,32 @@ span {
     /* font-family: Inter; */
     font-size: 16px;
     font-style: normal;
-    margin-bottom: 20px;
     line-height: 20px; /* 187.5% */
+    margin-bottom: 16px;
   }
 
   .pop-h2 {
     width: 90%;
     color: var(--neutrals-n-800, #172b4d);
-
-    /* font-family: Inter; */
     font-size: 20px;
     font-style: normal;
     line-height: 22px;
+    margin-top: 14px;
   }
 
   .pop-skills {
     display: flex;
+    margin-left: 170px;
     padding: 8px 12px;
     align-items: center;
     width: 90%;
     margin-top: 10px;
     gap: 10px;
     margin-bottom: 20px;
+  }
+
+  #dont-show {
+    display: inline;
   }
 
   .pop-container {
@@ -743,7 +762,7 @@ span {
   }
 
   .POP-BTN {
-    margin-top: -50px;
+    margin-top: -70px;
     margin-right: 1.1rem;
     display: flex;
     padding: 5px 2px;
@@ -752,5 +771,18 @@ span {
     border-radius: 4px;
     background: var(--theme-2-primary-2, #36b37f);
     color: var(--theme-2-neutral-11, #fff);
+  }
+
+  .pop-up {
+    width: 800px;
+  }
+
+  .pop-fin {
+    margin-right: -550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
   }
 }

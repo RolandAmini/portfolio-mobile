@@ -1,6 +1,7 @@
 const hamburgerBtn = document.getElementById("hamburger-btn");
 const closeBtn = document.getElementById("close-btn");
 const mobileMenu = document.querySelector(".nav-menu");
+const emailInput = document.getElementById("userEmail");
 
 hamburgerBtn.addEventListener("click", function (e) {
   e.preventDefault();
@@ -31,11 +32,6 @@ navLinks.forEach(link => {
 });
 
 
-// document.querySelector(".menu-icon").addEventListener("click", () => {
-//     navMenu.classList.toggle("active");
-// });
-
-
  const popblur = document.getElementById("popblur");
 function openPopup() {
   popup.classList.add("open-pop-up");
@@ -54,15 +50,42 @@ const myForm = document.getElementById("myForm");
 myForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  const emailInput = document.getElementById("userEmail");
+  
   const errorMessage = document.getElementById("error-message");
+  const fullname = document.querySelector('#fullname');
 
   const email = emailInput.value.trim();
 
-  // validate email to not be in lowercase
+  // validate email to not be in lowercase1
   if (email === email.toLowerCase()) {
     errorMessage.textContent = "";
   } else {
     errorMessage.textContent = "Please use lowercase letters";
   }
+
+  // local storage
+  const formData = {
+    email: emailInput.value,
+    name: fullname.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+
+  document.getElementById("userEmail").value="";
+  document.getElementById("message").value="";
+  document.querySelector('#fullname').value="";
+
 });
+
+// Receive data from local-storage1
+window.onload = () => {
+const formData = localStorage.getItem("formData");
+if (formData) {
+  // Check if the data exists
+  const formDataObject = JSON.parse(formData);
+  if (fullname) fullname.value = formDataObject.name || "";
+  if (emailInput) emailInput.value = formDataObject.email || "";
+}
+};
+
+
