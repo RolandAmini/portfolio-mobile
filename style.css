@@ -243,7 +243,6 @@ span {
   height: 100vh;
   backdrop-filter: blur(10px);
   z-index: 150;
-  display: none;
 }
 
 .open-pop-up {
