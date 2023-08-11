@@ -3,7 +3,7 @@ const closeBtn = document.getElementById("close-btn");
 const mobileMenu = document.querySelector(".nav-menu");
 const emailInput = document.getElementById("userEmail");
 
-hamburgerBtn.addEventListener("click", function (e) {
+hamburgerBtn.addEventListener("CLICK", function (e) {
   e.preventDefault();
   mobileMenu.style.display = "block";
   hamburgerBtn.style.display = "none";
